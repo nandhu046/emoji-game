@@ -1,0 +1,90 @@
+.lossCard-container {
+  background-color: #9796f0;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  width: 90%;
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+.game-info-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  font-family: 'roboto';
+  order: 1;
+  height: 50%;
+}
+
+.heading {
+  color: #ffffff;
+  font-weight: 550;
+  font-size: 27px;
+}
+
+.para {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+.game-result {
+  color: #6a59ff;
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+.button {
+  background-color: #ffce27;
+  border-width: 0px;
+  border-radius: 13px;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  color: #3d3d3d;
+  font-weight: 550;
+  outline: none;
+  cursor: pointer;
+}
+
+.result-img {
+  height: 50%;
+  width: 60%;
+  order: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .lossCard-container {
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    height: 70%;
+    justify-content: space-evenly;
+  }
+  .game-info-container {
+    width: 40%;
+    order: 0;
+  }
+  .heading{
+      font-size: 35px;
+  }
+  .result-img {
+    width: 40%;
+    order: 1;
+    height: 100%;
+  }
+}

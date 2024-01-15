@@ -1,0 +1,48 @@
+.nav-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  width: 100%;
+  background-size: cover;
+  /* height: 10vh; */
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-style {
+  height: 40px;
+  width: 40px;
+}
+
+h1 {
+  margin: 0px;
+  font-family: 'roboto';
+  font-size: 22px;
+  font-weight: 530;
+  color: #ffffff;
+}
+
+.scores-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.scores {
+  font-family: 'roboto';
+  color: #ffffff;
+  padding-left: 18px;
+  font-weight: 500;
+  font-size: 20px;
+}
